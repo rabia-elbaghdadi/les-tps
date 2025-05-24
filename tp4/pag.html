@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP2</title>
+</head>
+<body>
+    <h1> Inscreption Dans le PFE </h1>
+    <form>
+        <tr>
+            <label for="First name"><strong>First name :</strong></label>
+            <input type="text" id="First name" name="First name">
+        </tr>
+        <br><br>
+        <label for="Last name"><strong>Last name :</strong></label>
+        <input type="text" id="Last name" name="Last name">
+        <br><br>
+        <label for="Groupe"><strong>Groupe :</strong></label>
+        <input type="number" id="Groupe" name="Groupe" min="-100" max="100" step="1" value="0">
+        <br><br>
+        <label for="sujet"><strong>sujet :</strong></label>
+        <input type="text" id="sujet" name="sujet">
+        <br><br>
+        <label for="Description"><strong>Description :</strong></label>
+        <textarea rows="5" cols="30"></textarea>
+        <br><br>
+        <label for="appointment"><strong>Date de Debut :</strong></label>
+        <input type="date" id="appointment" name="appointment">
+        <br><br>
+        <label for="appointment"><strong>Date de Fin :</strong></label>
+        <input type="date" id="appointment" name="appointment">
+        <br><br>
+        <label for="Encadrement"><strong>Encadrement : </strong></label>
+        <select name="enc" id="Encadrement">
+        <option value="">--------------------</option>
+        <option value="Encadrement1">Encadrement1</option>
+        <option value="Encadrement2">Encadrement2</option>
+        <option value="Encadrement3">Encadrement3</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Envoyer">
+        <input type="submit" value="Annuler">
+    </form>    
+</body>
+</html>
